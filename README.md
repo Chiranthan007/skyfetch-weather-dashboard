@@ -54,7 +54,7 @@ https://skyfetch-weather-dashboard-beta.vercel.app/
 
 ## 💻 Local Setup
 
-1. Clone the repository git clone https://github.com/chiranthanreddy-cpu/skyfetch-weather-dashboard.git
+1. Clone the repository git clone https://github.com/Chiranthan007/skyfetch-weather-dashboard.git
 
 2. Open the project folder.
 
