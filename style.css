@@ -84,3 +84,37 @@ h1 {
     width: 100px;
     height: 100px;
 }
+
+.search-section{
+    display:flex;
+    gap:10px;
+    margin-bottom:30px;
+}
+
+#city-input{
+    flex:1;
+    padding:12px 20px;
+    border-radius:25px;
+    border:2px solid #ddd;
+    font-size:1rem;
+}
+
+#city-input:focus{
+    outline:none;
+    border-color:#667eea;
+}
+
+#search-btn{
+    padding:12px 30px;
+    border:none;
+    border-radius:25px;
+    background:linear-gradient(45deg,#667eea,#764ba2);
+    color:white;
+    cursor:pointer;
+    transition:0.2s;
+}
+
+#search-btn:hover{
+    opacity:0.9;
+    transform:translateY(-1px);
+}
