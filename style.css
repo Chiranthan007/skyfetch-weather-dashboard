@@ -118,3 +118,65 @@ h1 {
     opacity:0.9;
     transform:translateY(-1px);
 }
+
+/* Forecast Section */
+
+.forecast-section {
+    margin-top: 30px;
+}
+
+.forecast-title {
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    color: #333;
+}
+
+
+/* Forecast Grid */
+
+.forecast-container {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 10px;
+}
+
+
+/* Forecast Cards */
+
+.forecast-card {
+    background: rgba(255,255,255,0.6);
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.forecast-card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Forecast Temperature */
+
+.forecast-temp {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #667eea;
+}
+
+
+/* Forecast Description */
+
+.forecast-card p {
+    font-size: 0.85rem;
+    color: #555;
+    text-transform: capitalize;
+}
+
+
+/* Forecast Icons */
+
+.forecast-card img {
+    width: 50px;
+    height: 50px;
+}
